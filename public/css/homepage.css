@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(229, 213, 213);
+    /* overflow-y: hidden; */
+}
+
+.header {
+    height: 15vh;
+    margin-top: 5vh;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    text-align: center;
+    color: white;
+    /* display: flex; */
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+    /* margin-right: 20%; */
+}
+
+.logo #name {
+    font-size: 30px;
+}
+
+.buttons {
+    width: 50%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    gap: 30px;
+}
+
+.buttons button {
+    width: 100px;
+    height: 50px;
+    margin-right: 15%;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    background-color: rgb(190, 185, 185);
+}
+
+.image-container img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50%;
+    height: 80vh;
+    display: block;
+    margin: 0 auto;
+    /* filter: brightness(70%); */
+}
+
+.image-container .overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.image-container .overlay-text1 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.information {
+    width: 70%;
+    margin-left: 15%;
+    /* background-color: white; */
+}
+
+.information .overview {
+    width: 75%;
+}
+
+.information p,
+ul {
+    color: rgb(54, 50, 50);
+}
+
+.overview h1 {
+    font-size: 40px;
+}
+
+.information .overview p {
+    width: 100%;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.eligibility {
+    margin-top: 30px;
+}
+
+.eligibility h1 {
+    font-size: 40px;
+}
+
+.eligibility p {
+    font-size: 25px;
+}
+
+.eligibility ul li {
+    line-height: 45px;
+    font-size: 20px;
+}
+
+.donation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: darkblue;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.heart {
+    /* position: relative; */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(-45deg);
+    /* margin: 50px auto; */
+    margin: 30px 30px;
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    top: 0;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+}
+
+.heart::after {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.donation button {
+    width: 90px;
+    height: 55px;
+    border-radius: 20px;
+    text-align: center;
+
+}

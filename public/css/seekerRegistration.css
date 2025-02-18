@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-color: #d9534f;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header button {
+    padding: 15px 25px;
+    background-color: #5bc0de;
+    border: none;
+    color: white;
+    /* margin-right: 10px; */
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 8%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header button:hover {
+    background-color: #31b0d5;
+}
+
+header form {
+    margin-right: 30px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container input,
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.container select {
+    background-color: #fff;
+}
+
+.container button {
+    width: 70%;
+    padding: 10px 10px;
+    background-color: #31b0d5;
+    margin-left: 15%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    /* transition: translate(ease in 3s); */
+}
+
+.container button:hover {
+    background-color: blue;
+}
+
+.checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.checkbox-label input {
+    margin: 0;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: white;
+    padding: 25px;
+    margin: 10% auto;
+    width: 60%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #f4f4f4;
+}

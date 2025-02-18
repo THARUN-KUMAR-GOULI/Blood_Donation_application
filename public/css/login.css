@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Login Page Container */
+.login-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.errormsg {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.successmsg {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Login Form Section */
+.login-form {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #d43f3f;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.forgot-password a,
+.signup-link a {
+    color: #ff4d4d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover,
+.signup-link a:hover {
+    color: #d43f3f;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Additional Section */
+.additional-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.additional-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.additional-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.additional-section ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.additional-section ul li i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #fff;
+}
